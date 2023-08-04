@@ -182,12 +182,12 @@
 
 	#logo
 	{
-		display: none;
+		/* display: none; */
 	}
 	
 	#nav
 	{
-		/* display: none; */
+		display: none;
 	}
 
 
