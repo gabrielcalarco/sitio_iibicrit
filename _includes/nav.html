@@ -1,6 +1,6 @@
 <div id="nav-wrapper" class="container-fluid">
 	<!-- Nav -->
-	<nav id="nav" class="container-fluid">
+	<nav id="nav">
 		<ul>
 			{% assign current = page.url | downcase | split: '/' %}
 			<li {% if current[1] == 'index.html' %}class='current'{% endif %}><a href="/index.html">Inicio</a></li>
