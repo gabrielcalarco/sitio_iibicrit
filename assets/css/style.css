@@ -59,7 +59,7 @@
 	a
 	{
 		text-decoration: none;
-		color: #80BA8E;
+		color: #497c56;
 	}
 	
 	a:hover
@@ -99,6 +99,7 @@
 	p, ul, ol, dl, table
 	{
 		margin-bottom: 1em;
+		font-family: Georgia, 'Times New Roman', Times, serif;
 	}
 
 	.contact {
@@ -159,6 +160,7 @@
 		.row > section,
 		.row > article
 		{
+			padding-right: 4px;
 			margin-bottom: 0;
 		}
 
@@ -1057,5 +1059,6 @@
 		  }
 		  /* Clear floats after the columns */
 		  .row {
+			padding-right: 4px;
 			max-width: 70em ;
 		  }
