@@ -1,0 +1,43 @@
+---
+title: investigacion
+layout: default
+---
+
+<div id="main" class="container-fluid">
+	<div id="content" class="container-fluid">
+		
+
+	
+	<p style="text-align: center;">Aquí podrás encontrar los proyectos, vinculaciones y colaboraciones que se realizan en nuestro instituto.</p>
+	
+	<form id="site_search">
+	<!-- <p style="text-align: center;">Este es un sistema de búsqueda simple.</p> -->
+		  <br/>
+		  <div class="container mx-auto px-2 py-2"  style="text-align: center;">
+		
+			  <input id="search" type="text"/></form>
+		  
+			  <div id="results"></div>
+			  <ul id="search_results"></ul>
+			  <script src="{{site.baseurl}}/assets/js/elasticlunr.min.js"></script>
+			  <script src="{{site.baseurl}}/assets/js/search.js"></script>
+
+		  </div>
+		<br/>
+		<br/>
+</div>
+	<div id="content" class="container-fluid">
+		{% for post in site.posts offset: 0 limit: 20 %}
+		<div class="row">
+			<section class="8u -2u">
+
+				<header>
+					<h1 class="titulo_post">{{ post.title }}</h1>
+				</header>
+				{{ post.content }}
+				<a href="{{ site.prefix }}/sitio_iibicrit{{ post.url }}" class="button button-style1"  style="margin-left: 2cm; margin-right: 2.8cm;">Seguir leyendo</a>
+			</section>
+		</div>
+		{% endfor %}
+	</div>
+</div>
