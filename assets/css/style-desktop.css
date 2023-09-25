@@ -12,8 +12,28 @@
 	{
 	}
 
+
+p {
+	margin-left: 2cm;
+	margin-right: 2.8cm;
+
+}
+
+ul
+{
+	margin-left: 2cm;
+	margin-right: 2.8cm;
+}
+
+
+h1,h2,h3,h4,h5,h6
+{
+	margin-left: 2cm;
+	margin-right: 2.8cm;
+}
+
 	body,input,textarea,select
-	{
+	{	
 	}
 
 	header
