@@ -4,11 +4,13 @@
 		<ul>
 			{% assign current = page.url | downcase | split: '/' %}
 			<!-- <li {% if current[1] == 'index' %}class='current'{% endif %}><a href="/sitio_iibicrit/">Inicio</a></li> -->
-			<li {% if current[1] == 'index' %}class='current'{% endif %}><a class="header__logo" href="{{ '/' | relative_url }}">
+			<li {% if current[1] == 'index' %}class='current'{% endif %}>
+				<!-- <a class="header__logo" href="{{ '/' | relative_url }}"> -->
 				<!-- <div class="header__logo--container"> -->
-				  {% include logoiibicirt.svg %}
+				  <!-- {% include logoiibicirt.svg %} -->
 				<!-- </div> -->
-			  </a></li>
+			  <!-- </a> -->
+			</li>
 			<li {% if current[1] == 'personal' %}class='current'{% endif %}><a href="/sitio_iibicrit/personal">PPersonal</a></li>
 			<li {% if current[1] == 'incipit' %}class='current'{% endif %}><a href="/sitio_iibicrit/incipit">Incipit</a></li>
 			<li {% if current[1] == 'investigacion' %}class='current'{% endif %}><a href="/sitio_iibicrit/proyectos_vinculaciones">Investigación</a></li>
