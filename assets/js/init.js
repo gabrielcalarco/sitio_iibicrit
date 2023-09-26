@@ -34,7 +34,7 @@ skel.init({
 	panels: {
 		panels: {
 			navPanel: {
-				// breakpoints: 'mobile',
+				breakpoints: 'mobile',
 				position: 'left',
 				style: 'reveal',
 				size: '80%',
