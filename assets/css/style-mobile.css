@@ -99,7 +99,7 @@
 		
 		#titleBar .tag
 		{
-			/* display: none; */
+			display: none;
 		}
 
 		#titleBar .toggle

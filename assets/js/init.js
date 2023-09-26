@@ -5,7 +5,7 @@
 */
 
 skel.init({
-	prefix: '/sitio_iibicrit/assets/css/style',
+	prefix: 'https://gabrielcalarco.github.io/sitio_iibicrit/assets/css/style',
 	resetCSS: true,
 	boxModel: 'border',
 	grid: {
@@ -45,7 +45,7 @@ skel.init({
 			titleBar: {
 				breakpoints: 'mobile',
 				position: 'top-left',
-				height: 44,
+				height: 50,
 				width: '100%',
 				html: '<span class="toggle" data-action="togglePanel" data-args="navPanel"></span>' +
  '<span class="title" data-action="copyHTML" data-args="logo"></span>'

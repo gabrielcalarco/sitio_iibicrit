@@ -872,7 +872,7 @@
 
 		#nav > ul > li
 		{
-			display: inline-block;
+			/* display: inline-block; */
 			border-right: 1px solid;
 			border-color: rgba(255,255,255,.1);
 		}
@@ -886,7 +886,7 @@
 			#nav > ul > li > a,
 			#nav > ul > li > span
 			{
-				display: inline-block;
+				/* display: inline-block; */
 				padding: 1.5em 1.5em;
 				letter-spacing: 0.06em;
 				text-decoration: none;
