@@ -99,7 +99,7 @@
 		
 		#titleBar .tag
 		{
-			display: none;
+			/* display: none; */
 		}
 
 		#titleBar .toggle
@@ -182,7 +182,7 @@
 
 	#logo
 	{
-		display: none;
+		/* display: none; */
 	}
 	
 	#nav
