@@ -87,7 +87,7 @@
 		background: #161616;
 	}
 
-		#titleBar .title a
+		/* #titleBar .title a
 		{
 			display: block;
 			color: #fff;
@@ -95,11 +95,11 @@
 			line-height: 44px;
 			font-weight: 300;
 			text-decoration: none;
-		}
+		} */
 		
 		#titleBar .tag
 		{
-			/* display: none; */
+			display: none;
 		}
 
 		#titleBar .toggle
@@ -182,7 +182,7 @@
 
 	#logo
 	{
-		/* display: none; */
+		display: none;
 	}
 	
 	#nav
