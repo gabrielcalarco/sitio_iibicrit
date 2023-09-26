@@ -89,7 +89,7 @@
 
 		#titleBar .title a
 		{
-			display: block;
+			/* display: block; */
 			color: #fff;
 			text-align: center;
 			line-height: 44px;
