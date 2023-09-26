@@ -5,7 +5,7 @@
 */
 
 skel.init({
-	prefix: 'assets/css/style',
+	prefix: 'https://gabrielcalarco.github.io/sitio_iibicrit/assets/css/style',
 	resetCSS: true,
 	boxModel: 'border',
 	grid: {
