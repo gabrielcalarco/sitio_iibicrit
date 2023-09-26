@@ -126,9 +126,9 @@
 		margin-bottom: 1.6em;
 	}
 	
-		header h2
+		/* header h2
 		{
-		}
+		} */
 
 		header .byline
 		{
@@ -249,8 +249,8 @@
 				border-top: none;
 			}
 	
-			ul.default {
-			}
+			/* ul.default {
+			} */
 		
 		ul.style li {
 			margin: 0;
@@ -326,9 +326,9 @@
 		text-decoration: none;
 	}
 
-		.fa.solo
+		/* .fa.solo
 		{
-		}
+		} */
 		
 			.fa.solo span
 			{
@@ -850,9 +850,6 @@
 /* Nav                                                                           */
 /*********************************************************************************/
 
-	#nav
-	{
-	}
 
 		#nav-wrapper
 		{
@@ -921,9 +918,9 @@
 		text-align: center;
 	}
 	
-	.homepage #content header h2
+	/* .homepage #content header h2
 	{
-	}
+	} */
 
 	#sidebar h2
 	{
@@ -1046,7 +1043,7 @@
 
 		/* Traido de poesia medieval */
 
-		@media (max-width: $breakpoint-lg) {
+		@media (max-width: breakpoint-lg) {
 			.sm-width-full { width: 100% !important; }
 		  }
 		  
