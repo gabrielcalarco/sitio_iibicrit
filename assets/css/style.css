@@ -41,7 +41,7 @@
 	
 		h2
 		{
-			letter-spacing: -0.025em;
+			/* letter-spacing: -0.025em; */
 		}
 	
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
@@ -56,7 +56,8 @@
 		 color: #27aaca;
 		 font-family: Georgia, 'Times New Roman', Times, serif;
 		 font-size: 2rem;
-		
+		 padding:10px;
+		 line-height: 30px;
 		}
 		
 	strong, b
@@ -128,6 +129,7 @@
 	
 		header h2
 		{
+	
 		}
 
 		header .byline
