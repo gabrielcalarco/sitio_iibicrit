@@ -45,7 +45,7 @@ skel.init({
 			titleBar: {
 				breakpoints: 'mobile',
 				position: 'top-left',
-				height: 50,
+				height: 44,
 				width: '100%',
 				html: '<span class="toggle" data-action="togglePanel" data-args="navPanel"></span>' +
  '<span class="title" data-action="copyHTML" data-args="logo"></span>'
