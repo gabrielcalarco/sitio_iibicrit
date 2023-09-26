@@ -5,9 +5,9 @@
 			{% assign current = page.url | downcase | split: '/' %}
 			<!-- <li {% if current[1] == 'index' %}class='current'{% endif %}><a href="/sitio_iibicrit/">Inicio</a></li> -->
 			<li {% if current[1] == 'index' %}class='current'{% endif %}><a class="header__logo" href="{{ '/' | relative_url }}">
-				<div class="header__logo--container">
+				<!-- <div class="header__logo--container"> -->
 				  {% include logoiibicirt.svg %}
-				</div>
+				<!-- </div> -->
 			  </a></li>
 			<li {% if current[1] == 'personal' %}class='current'{% endif %}><a href="/sitio_iibicrit/personal">Personal</a></li>
 			<li {% if current[1] == 'incipit' %}class='current'{% endif %}><a href="/sitio_iibicrit/incipit">Incipit</a></li>
