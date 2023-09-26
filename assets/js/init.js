@@ -5,7 +5,7 @@
 */
 
 skel.init({
-	prefix: 'assets/css/style',
+	prefix: 'https://gabrielcalarco.github.io/sitio_iibicrit/assets/css/style',
 	resetCSS: true,
 	boxModel: 'border',
 	grid: {
@@ -17,7 +17,7 @@ skel.init({
 			lockViewport: true,
 			containers: 'fluid',
 			grid: {
-				collapse: true,
+				// collapse: true,
 				gutters: 10
 			}
 		},
