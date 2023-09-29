@@ -135,8 +135,8 @@
 		header .byline
 		{
 			display: block;
-			margin: 1.5em 0 0 0;
-			padding: 0 0 0.5em 0;
+			/* margin: 1.5em 0 0 0; */
+			/* padding: 0 0 0.5em 0; */
 		}
 		
 	footer
@@ -177,7 +177,7 @@
 		.row > section,
 		.row > article
 		{
-			padding-right: 4px;
+			/* padding-right: 4px; */
 			margin-bottom: 0;
 		}
 
@@ -232,13 +232,13 @@
 		ul.default
 		{
 			margin: 0;
-			padding: 0em 0em 1.5em 0em;
+			/* padding: 0em 0em 1.5em 0em; */
 			/* list-style: none; */
 		}
 		
 			ul.default li
 			{
-				padding: 2.60em 2em;
+				/* padding: 2.60em 2em; */
 				font-size: 0.95em;
 				border-top: 1px solid;
 				border-color: rgba(0,0,0,.1);
@@ -256,8 +256,8 @@
 		
 		ul.style li {
 			margin: 0;
-			padding: 2em 0em 1.5em 0em;
-			border-top: 1px solid;
+			/* padding: 2em 0em 1.5em 0em; */
+			/* border-top: 1px solid; */
 			border-color: rgba(0,0,0,.1);
 		}
 		
@@ -277,7 +277,7 @@
 		}
 		
 		ul.style .posted {
-			padding: 0em 0em 1em 0em;
+			/* padding: 0em 0em 1em 0em; */
 			letter-spacing: 1px;
 			text-transform: uppercase;
 			font-size: 8pt;
@@ -334,7 +334,7 @@
 		
 			.fa.solo span
 			{
-				display: none;
+				/* display: none; */
 			}
 
 		.fa:before
@@ -763,7 +763,7 @@
 	ul.contact li
 	{
 		display: inline-block;
-		margin: 0 1em;
+		/* margin: 0 1em; */
 		color: white;
 	}
 	
@@ -1079,6 +1079,6 @@
 		  }
 		  /* Clear floats after the columns */
 		  .row {
-			padding-right: 4px;
-			max-width: 70em ;
+			/* padding-right: 4px;
+			max-width: 70em ; */
 		  }
