@@ -334,7 +334,7 @@
 		
 			.fa.solo span
 			{
-				/* display: none; */
+				display: none;
 			}
 
 		.fa:before
@@ -1079,6 +1079,6 @@
 		  }
 		  /* Clear floats after the columns */
 		  .row {
-			/* padding-right: 4px;
-			max-width: 70em ; */
+			padding-right: 4px;
+			max-width: 70em ;
 		  }
