@@ -1,7 +1,7 @@
 name: IIBICRIT
 description: Sitio institucional del IIBICRIT/CONICET
 # paginate: 10
-baseurl: "/sitio_iibicrit"
+baseurl: "/sitio_iibicrit/"
 # url: "" 
 # the base hostname & protocol for your site, e.g. http://example.com
 
