@@ -1,6 +1,6 @@
 ---
 title: Proyecto 2
-layout: proyecto
+layout: post1
 ---
 
 <p>segunda prueba proyecto</p>
