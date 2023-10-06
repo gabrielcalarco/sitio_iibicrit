@@ -886,6 +886,8 @@
 			}
 
 			#nav > ul > li > a,
+
+
 			#nav > ul > li > span
 			{
 				display: inline-block;
@@ -897,6 +899,9 @@
 				outline: 0;
 				color: #FFF;
 			}
+			.current {
+			display: none;
+		}
 
 			#nav li.active a
 			{

@@ -163,6 +163,12 @@
 			#navPanel .indent-4 { display: inline-block; width: 4em; }
 			#navPanel .indent-5 { display: inline-block; width: 5em; }
 			#navPanel .depth-0 { color: #fff; }
+
+			#nav > ul > li > a,
+
+			.current {
+				display: none;
+			}
 			
 /*********************************************************************************/
 /* Header                                                                        */

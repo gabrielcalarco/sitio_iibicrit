@@ -3,7 +3,7 @@
 	<nav id="nav" class="container-fluid">
 		<ul>
 			{% assign current = page.url | downcase | split: '/' %}
-			<li {% if current[1] == 'index' %}class='current'{% endif %}>
+			<li>
 				<a class="header__logo" href="{{ '/' | relative_url }}">
 				<!-- <div class="header__logo--container"> -->
 				  {% include logoiibicirt.svg %}
