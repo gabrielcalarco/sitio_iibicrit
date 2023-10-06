@@ -30,15 +30,15 @@ layout: default
 		<br/>
 </div>
 	<div id="content" class="container-fluid">
-		{% for post1 in site.posts offset: 0 limit: 20 %}
+		{% for post in site.posts offset: 0 limit: 20 %}
 		<div class="row">
-			<section class="8u -2u">
+			<section>
 
 				<header>
-					<h1 class="titulo_post">{{ post1.title }}</h1>
+					<h1 class="titulo_post">{{ post.title }}</h1>
 				</header>
-				{{ post1.content }}
-				<a href="{{ site.prefix }}/sitio_iibicrit{{ post1.url }}" class="button button-style1"  style="margin-left: 2cm; margin-right: 2.8cm;">Seguir leyendo</a>
+				<!-- {{ post.excerpt }} -->
+				<a href="{{ site.prefix }}/sitio_iibicrit{{ post.url }}" class="button button-style1"  style="margin-left: 2cm; margin-right: 2.8cm;">Seguir leyendo</a>
 			</section>
 		</div>
 		{% endfor %}
