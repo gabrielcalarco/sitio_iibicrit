@@ -27,15 +27,15 @@ layout: default
 		<br/>
 </div>
 	<div id="content" class="container-fluid">
-		{% for post in site.posts offset: 0 limit: 20 %}
+		{% for proyecto in site.posts offset: 0 limit: 20 %}
 		<div class="row">
 			<section class="8u -2u">
 
 				<header>
-					<h1 class="titulo_post">{{ post.title }}</h1>
+					<h1 class="titulo_post">{{ proyecto.title }}</h1>
 				</header>
-				{{ post.content }}
-				<a href="{{ site.prefix }}/sitio_iibicrit{{ post.url }}" class="button button-style1"  style="margin-left: 2cm; margin-right: 2.8cm;">Seguir leyendo</a>
+				{{ proyecto.content }}
+				<a href="{{ site.prefix }}/sitio_iibicrit{{ proyecto.url }}" class="button button-style1"  style="margin-left: 2cm; margin-right: 2.8cm;">Seguir leyendo</a>
 			</section>
 		</div>
 		{% endfor %}

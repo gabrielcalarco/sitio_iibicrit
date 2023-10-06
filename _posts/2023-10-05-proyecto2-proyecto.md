@@ -1,6 +1,6 @@
 ---
 title: Proyecto 2
-layout: default
+layout: proyecto
 ---
 
 <p>segunda prueba proyecto</p>
