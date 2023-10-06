@@ -164,11 +164,7 @@
 			#navPanel .indent-5 { display: inline-block; width: 5em; }
 			#navPanel .depth-0 { color: #fff; }
 
-			#nav > ul > li > a,
 
-			.current {
-				display: none;
-			}
 			
 /*********************************************************************************/
 /* Header                                                                        */
@@ -191,16 +187,16 @@
 		display: none;
 	} */
 	
-	#nav
-#li
-{
-	display: none;
-}
-	.secc
-	{
-		display: none;
-	}
 
+	#nav > ul > li > a,
+	
+	.current  {
+		display: none;
+		}
+
+	.logo {
+		display: block;
+		}
 
 /*********************************************************************************/
 /* Main                                                                          */

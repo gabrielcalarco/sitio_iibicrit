@@ -899,9 +899,7 @@
 				outline: 0;
 				color: #FFF;
 			}
-			.current {
-			display: none;
-		}
+
 
 			#nav li.active a
 			{
@@ -910,7 +908,7 @@
 
 			#nav > ul > li > ul
 			{
-				display: none;
+				/* display: none; */
 			}
 	
 /*********************************************************************************/
