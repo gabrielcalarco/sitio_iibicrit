@@ -906,10 +906,10 @@
 				color: #FFF;
 			}
 
-			/* #nav > ul > li > ul
+			#nav > ul > li > ul
 			{
-				display: none;
-			} */
+				/* display: none; */
+			}
 	
 /*********************************************************************************/
 /* Main                                                                          */
@@ -936,6 +936,26 @@
 		padding-bottom: 0.50em;
 	}
 
+	
+	.row
+	{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+div
+
+.sidebar
+{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.content
+{
+	margin-left: 0px;
+	margin-right: 0px;
+}
 /*********************************************************************************/
 /* Footer                                                                        */
 /*********************************************************************************/
@@ -1074,14 +1094,14 @@
 		  .col-left {
 			/* padding-right:  $spacer-2; */
 			float: left;
-			width: 50%;
+			width: 60%;
 		  }
 		  .col-right {
 			float: right;
-			width: 50%;
+			width: 40%;
 		  }
 		  /* Clear floats after the columns */
 		  .row {
-			padding-right: 4px;
-			max-width: 70em ;
+			padding-right: 0px;
+			/* max-width: 100em ; */
 		  }
